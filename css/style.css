@@ -14,7 +14,6 @@ header {
     z-index: 1;
     width: 1903px;
     height: 900px;
-    color: black;
     background-color: white;
     background-image: url(../img/header-bg.jpg);
     background-attachment: fixed;
@@ -24,14 +23,12 @@ header {
 nav {
     width: 100%;
     height: 90px;
-    background-color: black;
     border-bottom: 2px solid #86878c;
     border-width: 1px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
 .hightbar {
-    /* background-color: black; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -57,7 +54,7 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
-    color: white;
+    /* color: white; */
     text-decoration: none;
 }
 
@@ -100,7 +97,7 @@ nav {
     z-index: 2;
     width: 100%;
     height: 460px;
-    color: black;
+    /* color: black; */
     background-color: white;
 }
 
@@ -108,7 +105,7 @@ nav {
     z-index: 3;
     width: 100%;
     height: 440px;
-    color: white;
+    /* color: white; */
     background-color: white;
     background-image: url(../img/projet-collaboratif-bg.jpg);
 }
@@ -117,7 +114,7 @@ nav {
     z-index: 4;
     width: 100%;
     height: 575px;
-    color: white;
+    /* color: white; */
     background-color: #3e3e3e;
 }
 
@@ -125,7 +122,7 @@ nav {
     z-index: 5;
     width: 100%;
     height: 455px;
-    color: black;
+    /* color: black; */
     background-color: white;
 }
 
@@ -133,7 +130,7 @@ nav {
     z-index: 6;
     width: 100%;
     height: 400px;
-    color: white;
+    /* color: white; */
     background-color: white;
     background-image: url(../img/projet-bg1.png);
 }
@@ -142,7 +139,7 @@ nav {
     z-index: 7;
     width: 100%;
     height: 830px;
-    color: black;
+    /* color: black; */
     background-color: white;
 }
 
@@ -150,7 +147,7 @@ nav {
     z-index: 8;
     width: 100%;
     height: 610px;
-    color: white;
+    /* color: white; */
     background-color: white;
     background-image: url(../img/temoignages-bg.png);
 }
@@ -159,27 +156,66 @@ nav {
     z-index: 9;
     width: 100%;
     height: 780px;
-    color: white;
+    /* color: white; */
     background-color: #a50627;
 }
+
+
+/* Logos Partenaires */
 
 .section10 {
     z-index: 10;
     width: 100%;
     height: 250px;
-    color: black;
+    /* color: black; */
     background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.logo1 {
+    /* background: url(../img/logo_onlineformapro.png) no-repeat; */
+    /* margin: 20px 0px 0px 0px; */
+    width: 374px;
+    height: 63px;
+}
+
+.logo2 {
+    /* background: url(../img/logo_onlineformapro.png) no-repeat; */
+    /* margin: 20px 0px 0px 0px; */
+    width: 209px;
+    height: 162px;
+}
+
+.logo3 {
+    /* background: url(../img/logo_onlineformapro.png) no-repeat; */
+    /* margin: 20px 0px 0px 0px; */
+    width: 384px;
+    height: 99px;
+}
+
+.logo4 {
+    /* background: url(../img/logo_onlineformapro.png) no-repeat; */
+    /* margin: 20px 0px 0px 0px; */
+    width: 409px;
+    height: 101px;
+}
+
+
+/* Footer */
 
 .section11 {
     z-index: 11;
     width: 100%;
     height: 150px;
-    color: black;
+    /* color: black; */
     background-color: #3e3e3e;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 .mentions {
@@ -187,23 +223,21 @@ nav {
     font-size: 16px;
 }
 
+
+/* Roll hover mentions */
+
 .mentions a {
-    color: white;
     text-decoration: none;
+    color: white;
 }
 
 .mentions a:hover {
-    color: white;
+    color: #b4b4b4;
     text-decoration: none;
 }
 
 .mentions a:active {
-    color: white;
-    text-decoration: none;
-}
-
-.mentions a:visited {
-    color: white;
+    color: purple;
     text-decoration: none;
 }
 
@@ -215,7 +249,6 @@ nav {
     text-decoration: none;
     color: white;
     font-family: font_awesome_5_brandsregular;
-    /* font-family: 'Font Awesome 5', Brands, Regular'; */
     font-size: 30px;
     padding: 5px 27px 5px 27px;
 }
@@ -224,13 +257,7 @@ nav {
     /* color: #b4b4b4; */
     color: darkslategrey;
     text-decoration: none;
-    background-color: blue;
-    padding: 5px 27px 5px 27px;
-}
-
-.social a:visited {
-    color: white;
-    text-decoration: none;
+    /* background-color: blue; */
     padding: 5px 27px 5px 27px;
 }
 
