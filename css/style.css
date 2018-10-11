@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'font_awesome_5_brandsregular';
+    src: url('font_awesome_5_brands-regular-400-webfont.eot') format('embedded-opentype'), url('../fonts/font_awesome_5_brands-regular-400-webfont.woff2') format('woff2'), src: url('font_awesome_5_brands-regular-400-webfont.woff') format('woff'), url('font_awesome_5_brands-regular-400-webfont.ttf') format('truetype'), url('../fonts/font_awesome_5_brands-regular-400-webfont.svg#font_awesome_5_brandsregular') format('svg'), url('font_awesome_5_brands-regular-400-webfont.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -148,7 +155,7 @@ nav {
     background-image: url(../img/temoignages-bg.png);
 }
 
-.contact {
+.section9 {
     z-index: 9;
     width: 100%;
     height: 780px;
@@ -156,7 +163,7 @@ nav {
     background-color: #a50627;
 }
 
-.partenaires {
+.section10 {
     z-index: 10;
     width: 100%;
     height: 250px;
@@ -164,10 +171,71 @@ nav {
     background-color: white;
 }
 
-.social {
+.section11 {
     z-index: 11;
     width: 100%;
     height: 150px;
     color: black;
     background-color: #3e3e3e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mentions {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.mentions a {
+    color: white;
+    text-decoration: none;
+}
+
+.mentions a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.mentions a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.mentions a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.social {
+    font-family: 'font_awesome_5_brandsregular';
+}
+
+.social a {
+    text-decoration: none;
+    color: white;
+    font-family: font_awesome_5_brandsregular;
+    /* font-family: 'Font Awesome 5', Brands, Regular'; */
+    font-size: 30px;
+    padding: 5px 27px 5px 27px;
+}
+
+.social a:hover {
+    /* color: #b4b4b4; */
+    color: darkslategrey;
+    text-decoration: none;
+    background-color: blue;
+    padding: 5px 27px 5px 27px;
+}
+
+.social a:visited {
+    color: white;
+    text-decoration: none;
+    padding: 5px 27px 5px 27px;
+}
+
+.social a:active {
+    text-decoration: none;
+    color: purple;
+    padding: 5px 27px 5px 27px;
 }
