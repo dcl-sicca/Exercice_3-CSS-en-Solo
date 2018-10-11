@@ -10,6 +10,16 @@
     padding: 0;
 }
 
+H1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+
+H2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
 header {
     z-index: 1;
     width: 1903px;
@@ -47,7 +57,11 @@ nav {
     width: 701px;
     height: 90px;
     line-height: 90px;
+    text-transform: uppercase
 }
+
+
+/* Navigation menu haut */
 
 .nav_menu ul {
     display: flex;
@@ -66,17 +80,10 @@ nav {
     font-size: 16px;
 }
 
-.nav_menu ul a:hover,
-.nav_menu ul a:focus {
+.nav_menu ul a:hover {
     text-decoration: none;
     background-color: #d31f44;
     color: white;
-    padding: 34px 27px 34px 27px;
-}
-
-.nav_menu ul a:visited {
-    color: white;
-    text-decoration: none;
     padding: 34px 27px 34px 27px;
 }
 
@@ -86,6 +93,9 @@ nav {
     color: white;
     padding: 34px 27px 34px 27px;
 }
+
+
+/* Activation page en cours */
 
 .nav_menu ul #en-cours a {
     background-color: #d31f44;
